@@ -1,0 +1,31 @@
+div {
+	margin: 20px;
+	width: 500px;
+}
+
+
+.a {
+	background-color: purple;
+}
+
+/*
+	jika kita menambah padding, border
+	maka ukuran box akan berubah
+	ukuran box yaitu ukuran width+padding+border
+*/
+.b {
+	background-color: red;
+	padding: 10px;
+	border: 5px solid blue;
+}
+
+/*
+	agar ukuran box tetap kita dapat menambah
+	box-sizing: border-box;
+*/
+.c {
+	background-color: red;
+	padding: 10px;
+	border: 5px solid blue;
+	box-sizing: border-box;
+}

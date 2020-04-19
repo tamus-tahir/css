@@ -1,0 +1,41 @@
+body { 
+	width: 80%;
+	margin: 0 auto;
+}
+
+header, nav, main, section, aside, footer {
+	margin: 5px auto;
+	padding: 5px 10px;
+	border: 1px solid black;
+}
+
+header { background: aqua; }
+
+nav { background: lightblue; }
+
+main {
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+	background: lavender;
+}
+
+section { background-color: grey; }
+
+aside {
+	float: right;
+	width: 25%;
+	background-color: lightgreen;
+	box-sizing: border-box;	
+}
+
+footer {
+	clear: both;
+	background-color: red;
+}
+
+@media screen and (max-width: 700px)  {
+	main, aside {
+		width: 100%;
+	}
+}

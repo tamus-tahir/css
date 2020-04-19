@@ -1,0 +1,26 @@
+.box-1 {
+	width: 150px;
+	height: 150px;
+	background: aqua;
+	/* overflow: hidden ==> jika konten melibihi pembungkusnya maka isi konten akan hilang */
+	overflow: hidden;
+}
+
+.box-2 {
+	width: 150px;
+	height: 150px;
+	background: rgb(255, 230, 0);
+	/* overflow: scroll ==> akan memunculkan scroll secara vertikan dan horizontal */
+	overflow: scroll;
+}
+
+.box-3 {
+	width: 150px;
+	height: 150px;
+	background: rgb(255, 0, 0);
+	/* 
+	overflow: auto ==> scroll akan muncul ketika dibutuhkan secara otomatis baik vertikal maupun horizontal 
+	dalam kasus kali ini scroll hanya muncul pada vertikal
+	*/
+	overflow: auto;
+}

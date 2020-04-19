@@ -1,0 +1,16 @@
+body {
+	width: 500px;
+	border: 1px solid black;
+}
+
+/*
+	float berfungsi untuk memaksa elemen 
+	berada di kiri atau kanan
+	float: 
+			left
+			right
+
+*/
+img {
+	float: left;
+}
